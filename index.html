@@ -10,16 +10,18 @@
 </head>
 
 <body>
+  <!--The combination of the next two Div is the only way I could get the blur effect to show
+  only on the background image and not the whole page-->
   <div class="background">
     <div class="blur">
       <main>
-
         <h1>Student Bio</h1>
         <h2>Donovan Courtney</h2>
+        <!--Profile Pictures-->
         <div id="pics">
-          <img src="./assets/pow.png" alt="pow" id="pow">
+          <img src="./assets/pow.png" alt="pow" id="symbols">
           <img src="./assets/Onesie.jpg" alt="Bio Pic" id="biopic">
-          <img src="./assets/kia.png" alt="kia" id="kia">
+          <img src="./assets/kia.png" alt="kia" id="symbols">
         </div>
 
 
@@ -70,14 +72,17 @@
 
   <footer>
     <div id="contactInfoContainer">
-      <img src="./assets/ega.png" alt="ega" id="left">
-      <img src="./assets/ega.png" alt="ega" id="right">
-      <h3>Contact Info</h3>
-      <ul id="contactInfoList">
-        <li>Email: <a href="mailto: donovan.courtney@gmail.com">donovan.courtney@gmail.com</a></li>
-        <li>Github: <a href="https://github.com/decourtney">https://github.com/decourtney</a> </li>
-        <li>Portfolio: Refer to GitHub</li>
-      </ul>
+      <!--EGA Pictures-->
+      <div id="egas">
+        <img class="ega" src="./assets/ega.png" alt="ega" id="left">
+        <ul id="contactInfoList">
+          <h3>Contact Info</h3>
+          <li>Email: <a href="mailto: donovan.courtney@gmail.com">donovan.courtney@gmail.com</a></li>
+          <li>Github: <a href="https://github.com/decourtney">https://github.com/decourtney</a> </li>
+          <li>Portfolio: Refer to GitHub</li>
+        </ul>
+        <img class="ega" src="./assets/ega.png" alt="ega">
+      </div>
     </div>
   </footer>
 
