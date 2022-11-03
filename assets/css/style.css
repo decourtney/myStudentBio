@@ -1,0 +1,106 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 15px solid gold;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../usflag.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+.blur {
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+#contactInfoContainer {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+#biopic {
+    display: block;
+    border-radius: 25px;
+    width: 30%;
+}
+
+#pow {
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+#kia {
+    display: block;
+    width: 30%;
+    float: right;
+}
+
+#pics {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.bioinfo {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #FF2400;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#contactInfoContainer {
+    font-size: 15px;
+    background-color: #000dc5c4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#left {
+    transform: scaleX(-1);
+    width: 90px;
+    padding-right: 5px;
+    float: left;
+}
+
+#right {
+    width: 90px;
+    padding-right: 5px;
+    float: right;
+}
+
+#contactInfoList {
+    display: inline-block;
+    margin-top: 0;
+    text-align: left;
+    font-weight: 700;
+}
